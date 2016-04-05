@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^accueil  index.php [L]
+RewriteRule ^accueil-([0-9]) index.php?page=2 [L]
+RewriteRule ^article article.php [L]
